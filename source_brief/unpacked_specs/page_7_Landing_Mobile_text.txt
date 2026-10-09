@@ -1,0 +1,75 @@
+Landing Mobile
+
+Hire AI Developer
+
+VETTED AI DEVELOPERS
+
+Hire AI Developers at Hourly, Monthly &amp; Fixed Cost
+
+Tell us what you are building. We match you with a vetted AI specialist.
+
+ {{p}}
+
+Tell us your requirement
+
+A short form. We come back with a matched developer.
+
+Developer requirement
+AI / ML developer
+
+Engagement type
+
+Hourly
+Monthly
+Fixed cost
+
+Name
+
+Country
+Select country
+
+Email or contact number
+
+Project description
+
+Get an AI Developer
+
+AI SPECIALISTS
+
+The AI developer you need, already filtered
+
+{{p}}
+
+TECHNOLOGY
+
+Built with the AI stack you use
+
+{{t}}
+
+HOW YOU CAN HIRE
+
+Choose the engagement that fits
+
+{{m.title}}
+
+{{m.body}}
+
+HOW IT WORKS
+
+From requirement to a developer at work
+
+{{s.n}}
+{{s.title}}
+{{s.body}}
+
+TRUSTED BY
+
+LOGO
+
+LOGO
+
+Tell us what you are building.
+
+We will match the AI developer.
+
+Get an AI Developer

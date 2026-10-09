@@ -1,0 +1,81 @@
+Home
+
+Hire AI Developer
+
+Home
+Hire AI Developer
+About Us
+Contact Us
+
+Get an AI Developer
+
+YOUR AI TALENT PARTNER
+
+Specialist AI developers, matched to your project
+
+We find, filter and match vetted AI developers to your requirement, so you can start building with the right person.
+
+Get an AI Developer
+See how it works
+
+SAMPLE REQUIREMENT
+
+Customer support chatbot on our own documents
+
+MonthlyChatbot
+
+MATCHED DEVELOPER
+
+LLM engineer
+
+RAGPythonLangChain
+
+HOW YOU CAN HIRE
+
+Three ways to work with an AI developer
+
+{{m.title}}
+
+{{m.body}}
+
+Get an AI Developer →
+
+SPECIALISATIONS
+
+AI development, and nothing else
+
+A narrow focus means we know exactly who is good at what.
+
+{{s}}
+
+HOW IT WORKS
+
+From requirement to a developer at work
+
+{{s.n}}
+
+{{s.title}}
+
+{{s.body}}
+
+BEYOND DEVELOPMENT
+
+When your product is ready to grow, we can help you reach customers
+
+Our sister business, Nova Spark Digital Marketing, supports clients once their product or business is developing.
+
+About us
+
+Tell us what you are building.
+
+We will match the AI developer.
+
+Get an AI Developer
+
+ Hire AI Developer
+
+Vetted AI developers, hired hourly, monthly or on a fixed cost.
+
+HomeHire AI DeveloperAbout UsContact Us
+
+© 2026 Nova Spark Digital Marketing · [Privacy policy] · [Terms]

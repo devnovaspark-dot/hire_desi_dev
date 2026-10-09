@@ -1,0 +1,313 @@
+@import "tailwindcss";
+
+@theme {
+  --color-canvas: #F7F5EF;
+  --color-surface: #FFFFFF;
+  --color-ink: #171717;
+  --color-cobalt: #3659F5;
+  --color-yellow: #E8FF63;
+  --color-soft: #E7E5DF;
+  --color-muted: #626262;
+  --color-emerald: #10B981;
+  --color-alert: #E11D48;
+  
+  --font-display: var(--font-display), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-sans: var(--font-body), -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-mono: var(--font-mono), monospace;
+}
+
+:root {
+  --bg-canvas: #F7F5EF;
+  --bg-surface: #FFFFFF;
+  --bg-subtle: #E7E5DF;
+  --bg-dark: #171717;
+  --text-primary: #171717;
+  --text-muted: #626262;
+  --accent-cobalt: #3659F5;
+  --accent-yellow: #E8FF63;
+  --border-ink: #171717;
+}
+
+body {
+  background-color: var(--bg-canvas);
+  color: var(--text-primary);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, .font-display {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+}
+
+code, kbd, pre, .font-mono {
+  font-family: var(--font-mono);
+}
+
+/* Neo-Brutalist Shadow Tokens */
+.shadow-brutal-sm {
+  box-shadow: 2px 2px 0px #171717;
+}
+
+.shadow-brutal {
+  box-shadow: 4px 4px 0px #171717;
+}
+
+.shadow-brutal-lg {
+  box-shadow: 6px 6px 0px #171717;
+}
+
+.shadow-brutal-xl {
+  box-shadow: 8px 8px 0px #171717;
+}
+
+.shadow-brutal-cobalt {
+  box-shadow: 4px 4px 0px #3659F5;
+}
+
+.shadow-brutal-cobalt-lg {
+  box-shadow: 6px 6px 0px #3659F5;
+}
+
+.shadow-brutal-yellow {
+  box-shadow: 4px 4px 0px #E8FF63;
+}
+
+.shadow-brutal-white {
+  box-shadow: 4px 4px 0px #FFFFFF;
+}
+
+/* Tactile Button Micro-Interactions */
+.brutal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border: 2px solid #171717;
+  box-shadow: 4px 4px 0px #171717;
+  transition: transform 160ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 160ms cubic-bezier(0.16, 1, 0.3, 1), background-color 160ms ease;
+  user-select: none;
+}
+
+.brutal-btn:hover:not(:disabled) {
+  transform: translate(-3px, -3px);
+  box-shadow: 7px 7px 0px #171717;
+}
+
+.brutal-btn:active:not(:disabled) {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px #171717;
+}
+
+.brutal-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+/* Interactive Card Classes with Tactile Lift & Spring */
+.card-interactive {
+  transition: transform 200ms cubic-bezier(0.16, 1, 0.3, 1), box-shadow 200ms cubic-bezier(0.16, 1, 0.3, 1), border-color 200ms ease, background-color 200ms ease;
+  will-change: transform, box-shadow;
+}
+
+.card-interactive:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0px #171717 !important;
+}
+
+.card-interactive:active {
+  transform: translate(1px, 1px);
+  box-shadow: 2px 2px 0px #171717 !important;
+}
+
+.card-interactive-cobalt:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0px #3659F5 !important;
+}
+
+.card-interactive-yellow:hover {
+  transform: translate(-4px, -4px);
+  box-shadow: 8px 8px 0px #E8FF63 !important;
+}
+
+/* Card Icon Micro-Interactions */
+.card-icon-box {
+  transition: transform 220ms cubic-bezier(0.16, 1, 0.3, 1), background-color 220ms ease, color 220ms ease;
+}
+
+.group:hover .card-icon-box {
+  transform: scale(1.08) rotate(-2deg);
+}
+
+/* Interactive Pill Tags */
+.interactive-pill {
+  transition: transform 140ms ease, background-color 140ms ease, color 140ms ease, box-shadow 140ms ease;
+}
+
+.interactive-pill:hover {
+  transform: translateY(-2px);
+  background-color: #E8FF63 !important;
+  color: #171717 !important;
+  border-color: #171717 !important;
+  box-shadow: 2px 2px 0px #171717;
+}
+
+/* Image Hover Zoom Animation */
+.image-zoom-container {
+  overflow: hidden;
+}
+
+.image-zoom-container img {
+  transition: transform 350ms cubic-bezier(0.16, 1, 0.3, 1), filter 350ms ease;
+}
+
+.image-zoom-container:hover img {
+  transform: scale(1.05);
+}
+
+/* Grid & Dots Technical Patterns */
+.bg-grid-dots {
+  background-image: radial-gradient(#171717 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+
+.bg-grid-graph {
+  background-image: 
+    linear-gradient(to right, rgba(23, 23, 23, 0.07) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(23, 23, 23, 0.07) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Smooth Infinite Marquee Animation */
+@keyframes marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  width: max-content;
+  animation: marquee 35s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
+
+/* Professional Micro-Keyframes */
+@keyframes pulse-subtle {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.25);
+    opacity: 0.7;
+  }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2.2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+@keyframes float-gentle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-float-gentle {
+  animation: float-gentle 4s ease-in-out infinite;
+}
+
+/* Shimmer Sheen for Status Badges */
+@keyframes shimmer-sheen {
+  0% {
+    transform: translateX(-150%);
+  }
+  100% {
+    transform: translateX(250%);
+  }
+}
+
+.shimmer-container {
+  position: relative;
+  overflow: hidden;
+}
+
+.shimmer-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    transparent 100%
+  );
+  transform: translateX(-150%);
+  animation: shimmer-sheen 4s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+  pointer-events: none;
+}
+
+/* Million-Dollar Executive Micro-Animations */
+@keyframes radar-ripple {
+  0% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 8px rgba(16, 185, 129, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
+.live-radar-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 9999px;
+  background-color: #10B981;
+  animation: radar-ripple 2s infinite cubic-bezier(0.45, 0, 0.55, 1);
+}
+
+.million-glow-hover {
+  transition: box-shadow 240ms cubic-bezier(0.16, 1, 0.3, 1), transform 240ms cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.million-glow-hover:hover {
+  box-shadow: 0 0 25px -5px rgba(54, 89, 245, 0.35), 6px 6px 0px #171717 !important;
+}
+
+/* Focus Indicator for WCAG AA */
+*:focus-visible {
+  outline: 2px solid #3659F5 !important;
+  outline-offset: 2px !important;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .animate-marquee {
+    animation: none !important;
+  }
+}

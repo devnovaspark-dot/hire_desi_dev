@@ -1,0 +1,158 @@
+Build Spec
+
+BUILD SPEC
+
+Design system, sections, tracking and launch plan
+
+Everything the developer needs to build the mock-ups on the other boards, in the order they will be needed this week.
+
+01 · COLOUR
+
+Deep navy, signal orange, quiet mist
+
+Orange is the action colour. It is used for buttons, the brand star and small accents, never for large text areas. Text on orange is always navy, and orange text on a light background uses the deeper shade.
+
+Navy ink
+#0B1733
+Hero, text, dark bands
+
+Navy 2
+#14254F
+Cards on navy
+
+Signal orange
+#F26B1D
+Buttons, star, accents
+
+Deep orange
+#C2410C
+Orange text on light
+
+Mist
+#F4F6FB
+Alternate sections
+
+Line
+#DDE3F0
+Borders, dividers
+
+02 · TYPE
+
+Sora for headlines, Plus Jakarta Sans for reading
+
+STYLESPECIMENDESKTOP / MOBILE
+
+H1 · Sora 700Hire AI Developers62 px / 36 px · line 1.05
+
+H2 · Sora 600The AI developer you need40 px / 28 px · line 1.15
+
+H3 · Sora 600Curated, vetted developers19–30 px / 18–22 px
+
+Body · Plus Jakarta Sans 400We match each requirement to a suitable AI developer.16–20 px / 16 px · line 1.6
+
+Eyebrow · 700 capsVETTED AI DEVELOPERS12–13 px · tracking 0.16em
+
+03 · COMPONENTS
+
+Buttons, form states and tags
+
+BUTTONS · MIN HEIGHT 48 PX
+
+Get an AI Developer
+Contact us
+Learn more
+
+Primary, dark and outline. Only one primary button per screen area. Corner radius 12 px.
+
+ENGAGEMENT CHOICE
+
+Hourly
+Monthly
+Fixed cost
+
+Selected = navy fill. Names only, no amounts. Hourly is selected by default; this is the first of three choices.
+
+FIELD STATES
+
+Default
+
+Focus
+
+ErrorEnter a valid email or phone number.
+
+SUCCESS STATE AFTER SUBMIT
+
+Requirement received
+
+Our team will review it and come back with a matched AI developer.
+
+Replace the form with this message, and load /thank-you/ (noindex) so the ad conversion fires once.
+
+04 · LANDING PAGE SECTIONS
+
+Eleven sections, three requirement forms
+
+#SECTIONCONTENTFORM
+
+{{s.n}}
+{{s.name}}
+{{s.body}}
+{{s.form}}
+
+No header or footer navigation on this page. The brand mark in the hero is not a link.
+
+05 · SEO AND CONTENT
+
+Ready for ads today, ready for organic in 2–3 months
+
+On-page rules
+
+{{x}}
+
+Keyword groups to use in copy
+
+CORE
+
+{{k}}
+
+SPECIALISATION (ONE PAGE EACH LATER)
+
+{{k}}
+
+06 · TRACKING AND LEADS
+
+Measure which countries and keywords bring real leads
+
+EVENTWHEN IT FIRESUSE
+
+{{e.name}}
+{{e.when}}
+{{e.use}}
+
+Every form submission is stored with country, engagement type, form position and campaign data, then sent to the team inbox [LEAD NOTIFICATION EMAIL] and the lead sheet [CRM OR SHEET]. This is how we decide which of the 20 launch markets get more budget.
+
+07 · QUALITY BAR
+
+Fast, accessible and mobile-first
+
+{{q.big}}
+
+{{q.title}}
+
+{{q.body}}
+
+08 · LAUNCH WEEK
+
+Tuesday to Saturday, day by day
+
+{{d.day}}
+
+{{d.title}}
+
+{{d.items}}
+
+09 · NEEDED FROM THE TEAM
+
+Content to supply before Thursday testing
+
+{{n}}

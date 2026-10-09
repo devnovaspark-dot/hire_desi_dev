@@ -1,0 +1,164 @@
+Hire AI Developer
+
+Hire AI Developer
+
+VETTED AI DEVELOPERS
+
+Hire AI Developers at Hourly, Monthly &amp; Fixed Cost
+
+Tell us what you are building. We match you with a vetted AI specialist, and you choose how you want to work together.
+
+{{p}}
+
+Get an AI Developer
+
+Takes about two minutes
+
+Tell us your requirement
+
+A short form. We review it and come back with a matched developer.
+
+Developer requirement
+
+AI / ML developerGenerative AI developerLLM engineerAI agent developerComputer vision developerNLP developerChatbot developerRAG developerOther
+
+Engagement type
+
+Hourly
+Monthly
+Fixed cost
+
+Name
+
+Country
+
+Select countryUnited StatesUnited KingdomGermanyUnited Arab EmiratesSingapore
+
+Email or contact number
+
+Project description
+
+Get an AI Developer
+No obligation. Your details are used only to match you with a developer.
+
+AI SPECIALISTS
+
+The AI developer you need, already filtered for you
+
+{{p.title}}
+
+{{p.body}}
+
+TECHNOLOGY
+
+Built with the AI stack you already use
+
+{{t}}
+
+YOUR REQUIREMENT
+
+Describe the project. We find the developer.
+
+Share what you need built and how you would like to hire. Our team reviews every requirement and proposes a matched AI developer.
+
+Hourly
+Monthly
+Fixed cost
+
+Developer requirement
+LLM engineerAI agent developer
+
+Engagement type
+HourlyMonthlyFixed cost
+
+Name
+
+Country
+Select country
+
+Email or contact number
+
+Project description
+
+Get an AI Developer
+
+WHY HIRE AI DEVELOPER
+
+A focused talent partner, not an open marketplace
+
+{{w.n}}
+
+{{w.title}}
+
+{{w.body}}
+
+HOW YOU CAN HIRE
+
+Choose the engagement that fits your project
+
+{{m.title}}
+
+{{m.body}}
+
+Get an AI Developer →
+
+HOW IT WORKS
+
+From requirement to a developer at work
+
+{{s.n}}
+
+{{s.title}}
+
+{{s.body}}
+
+TRUSTED BY
+
+{{l}}
+
+Placeholder: replace with real client logos when approved.
+
+CASE STUDIES
+
+What our developers have built
+
+PROJECT IMAGE
+
+[CLIENT INDUSTRY]
+
+[Project title]
+
+[One-line outcome the client approved for publication.]
+
+[Client testimonial, name and role]
+
+Placeholder: show four to five case studies and testimonials once real, approved material is available.
+
+START NOW
+
+Ready to meet your AI developer?
+
+Send your requirement and we will come back with a matched developer.
+
+Developer requirement
+AI / ML developer
+
+Engagement type
+HourlyMonthlyFixed cost
+
+Country
+Select country
+
+Name
+
+Email or contact number
+
+Project description
+
+Get an AI Developer
+
+Tell us what you are building.
+
+We will match the AI developer.
+
+Get an AI Developer

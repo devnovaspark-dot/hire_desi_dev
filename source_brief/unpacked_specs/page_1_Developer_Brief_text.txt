@@ -1,0 +1,105 @@
+Developer Brief
+
+NOVA SPARK DIGITAL MARKETING
+
+Website developer brief · v1.0 · 6 October 2026
+
+WEBSITE BUILD BRIEF
+
+Hire AI Developer — the website
+
+A premium, conversion-first site that turns international visits into AI developer requirements. This brief covers the pages, the design direction, the form and the launch plan, with mock-ups on the boards beside it.
+
+Build · Tue 6 – Thu 8 Oct
+Live with ads · Fri 9 Oct
+4 launch pages
+Mobile-first
+
+01 · WHAT WE ARE BUILDING
+
+One offer, one action: submit a requirement
+
+Hire AI Developer supplies vetted AI developers to international clients. The site has a single job: get a visitor to describe their requirement in a short form, so our team can match the right developer. Everything on the page supports that one action.
+
+{{f.label}}
+
+{{f.title}}
+
+{{f.body}}
+
+02 · NON-NEGOTIABLE RULES
+
+No pricing, anywhere on the site
+
+We never show prices or hourly fees. Visitors see the three ways to hire, by name only. Commercials are discussed after the requirement is reviewed, not on the website.
+
+Always
+
+{{a}}
+
+Never
+
+{{n}}
+
+03 · SITEMAP
+
+Four pages at launch, more added after
+
+URLPAGEPURPOSE
+
+{{p.url}}
+{{p.name}}
+{{p.role}}
+
+After launch: one hub plus nine specialty pages, using the pattern /hire-[specialty]-developer/ (for example /hire-llm-developer/). Build the landing page template so these can be cloned quickly.
+
+04 · HOW CLIENTS CAN HIRE
+
+Three engagement models, named only
+
+Show these as three equal cards. Use the exact names Hourly, Monthly and Fixed cost. No amounts, no “from” wording and no comparison of cost between the three.
+
+{{m.tag}}
+
+{{m.title}}
+
+{{m.body}}
+
+Good for: {{m.fit}}
+
+05 · THE VISITOR JOURNEY
+
+Four steps the visitor sees
+
+{{s.n}}
+
+{{s.title}}
+
+{{s.body}}
+
+06 · THE REQUIREMENT FORM
+
+One form, used in three places
+
+The same component appears in the hero, mid-page and at the bottom of the landing page. There is deliberately no budget field, because we do not discuss price on the site.
+
+FIELDTYPEREQUIREDNOTES
+
+{{f.name}}
+{{f.type}}
+{{f.req}}
+{{f.note}}
+
+HIDDEN FIELDS CAPTURED ON EVERY SUBMISSION
+
+{{h}}
+
+07 · WHERE TO LOOK NEXT
+
+The boards on this canvas
+
+{{b.n}}
+
+{{b.title}}
+
+{{b.body}}
